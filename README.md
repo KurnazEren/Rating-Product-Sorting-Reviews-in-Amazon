@@ -24,7 +24,7 @@ One of the most important problems in e-commerce is to see the points given to t
 
 **The Tasks**
 
-**TASKS:** *Calculate Average Rating Based on Current Comments and compare it with existing Average Rating.
+**TASKS:** Calculate Average Rating Based on Current Comments and compare it with existing Average Rating.
 In the shared data set, users gave points and comments to a product.
 Our aim in this task is to evaluate the scores given by weighting them by date.
 It is necessary to compare the first average score with the weighted score according to the date to be obtained.
