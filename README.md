@@ -30,3 +30,32 @@ Our aim in this task is to evaluate the scores given by weighting them by date.
 It is necessary to compare the first average score with the weighted score according to the date to be obtained.
 Calculate the weighted average score by date.
 Specify 20 Reviews for the product to be displayed on the product detail page.
+
+#---------------------------------------------------------------------------------------------------------------------------
+
+TR:
+
+İş Problemi: E-ticarette en önemli problemlerden biri satış sonrası ürünlere verilen puanların doğru görülmesidir. Bu sorunun çözümü e-ticaret sitesi için daha fazla müşteri memnuniyeti sağlamak, satıcılar için ürünün ön plana çıkması, alıcılar için ise karmaşık bir alışveriş deneyimi anlamına gelmektedir. Bir diğer sorun ise ürünlere verilen yorumların doğru sıralanması olarak dikkat çekiyor. Yanıltıcı yorumlar ürünün satışını doğrudan etkileyeceği için hem maddi kayba hem de müşteri bilgilendirmesine neden olacaktır. Bu 2 temel sorunun çözümünde e-ticaret sitesi ve satıcılar satışlarına göz atarken satın alma yolculuğunu karmaşık olarak tamamlayacaklardır.
+
+Veri Kümesi Hikayesi
+
+*Amazon ürün verilerini içeren bu veri kümesi, ürün kategorilerini ve çeşitli meta verileri içermektedir. Elektronik kategorisinde en çok yorum alan ürün kullanıcı puanlarına ve yorumlarına sahiptir.
+
+Değişkenler:
+
+reviewerID - İncelemeyi yapan kişinin kimliği, örneğin A2SUAM1J3GNN3B
+asin - Ürünün kimliği, örneğin 0000013714
+reviewerName - gözden geçirenin adı
+yararlı - incelemenin yararlılık derecesi, örneğin 2/3
+reviewText - inceleme metni
+genel - ürün değerlendi̇rmesi̇
+özet - i̇ncelemeni̇n özeti̇
+unixReviewTime - inceleme zamanı (unix zamanı)
+reviewTime - incelemenin zamanı (ham)
+day_diff - Değerlendirmeden bu yana geçen gün sayısı
+helpful_yes - İncelemenin yararlı bulunma sayısı
+total_vote - İncelemeye verilen oy sayısı
+Görevler
+
+Mevcut Yorumlara Göre Ortalama Puanı Hesaplayın ve mevcut Ortalama Puanla karşılaştırın. Paylaşılan veri setinde kullanıcılar bir ürüne puan ve yorum vermişlerdir. Bu görevdeki amacımız verilen puanları tarihe göre ağırlıklandırarak değerlendirmektir. Elde edilecek tarihe göre ağırlıklandırılmış puan ile ilk ortalama puanı karşılaştırmak gerekmektedir. Tarihe göre ağırlıklı ortalama puanı hesaplayın. Ürün detay sayfasında görüntülenecek ürün için 20 Yorum belirleyin.
+
